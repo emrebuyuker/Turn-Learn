@@ -8,6 +8,8 @@ target 'Turn Learn' do
   # Pods for Turn Learn
 
 pod 'Firebase/Analytics'
+pod 'Firebase/Firestore'
+pod 'CodableFirebase'
 
   target 'Turn LearnTests' do
     inherit! :search_paths
